@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>面试报告</title>
+  <style>
+    body { font-family: -apple-system, "Microsoft YaHei", sans-serif; background: #f5f5f5; padding: 20px; }
+    .container { max-width: 600px; margin: 0 auto; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    .header { background: linear-gradient(135deg, #27ae60 0%, #229954 100%); color: #fff; padding: 30px; text-align: center; }
+    .header h1 { margin: 0 0 10px; font-size: 24px; }
+    .score { font-size: 48px; font-weight: bold; margin: 10px 0; }
+    .recommendation { display: inline-block; padding: 8px 20px; border-radius: 20px; font-weight: bold; margin: 15px 0; }
+    .rec-positive { background: #d5f5e3; color: #27ae60; }
+    .rec-negative { background: #fadbd8; color: #e74c3c; }
+    .content { padding: 30px; color: #2c3e50; line-height: 1.8; }
+    .button { display: inline-block; background: #3498db; color: #fff !important; padding: 12px 30px; text-decoration: none; border-radius: 4px; margin: 20px 0; font-weight: bold; }
+    .footer { background: #ecf0f1; padding: 20px; text-align: center; color: #7f8c8d; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>面试报告已生成</h1>
+      <p>{{ position_name }}</p>
+      <div class="score">{{ overall_score }} / 100</div>
+      <div class="recommendation {{ 'rec-positive' if is_passed else 'rec-negative' }}">
+        {{ recommendation }}
+      </div>
+    </div>
+    <div class="content">
+      <p>尊敬的 <strong>{{ candidate_name }}</strong>：</p>
+      <p>您的面试评估已完成，综合评分 <strong>{{ overall_score }}</strong> 分。</p>
+      <p>完整评估报告（包含技术能力、沟通能力、每题详细点评）已生成，您可以下载查看：</p>
+      <p style="text-align: center;">
+        <a href="{{ report_url }}" class="button">下载完整报告</a>
+      </p>
+      <p>如对结果有疑问，请联系 HR。</p>
+    </div>
+    <div class="footer">
+      本邮件由系统自动发送<br>
+      AI Interview System &copy; 2026
+    </div>
+  </div>
+</body>
+</html>

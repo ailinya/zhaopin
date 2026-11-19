@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="640" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', Arial, sans-serif">
+  <!-- 背景 -->
+  <rect width="100%" height="100%" fill="#ffffff"/>
+
+  <!-- 标题 -->
+  <text x="450" y="38" font-size="22" font-weight="bold" text-anchor="middle" fill="#212529">AI 智能招聘面试系统 · 架构图</text>
+  <text x="450" y="58" font-size="12" text-anchor="middle" fill="#868e96">FastAPI + LangGraph + React（单进程 MVP，2026-07）</text>
+
+  <!-- ============== ① 客户端 ============== -->
+  <rect x="60" y="90" width="780" height="80" rx="8" ry="8" fill="#e7f5ff" stroke="#4dabf7" stroke-width="2"/>
+  <text x="80" y="115" font-size="14" font-weight="bold" fill="#1971c2">① 客户端</text>
+
+  <rect x="120" y="125" width="220" height="35" rx="4" ry="4" fill="#fff" stroke="#a5d8ff"/>
+  <text x="230" y="148" font-size="13" text-anchor="middle" fill="#495057">HR 端 SPA · React 18</text>
+
+  <rect x="380" y="125" width="220" height="35" rx="4" ry="4" fill="#fff" stroke="#a5d8ff"/>
+  <text x="490" y="148" font-size="13" text-anchor="middle" fill="#495057">候选人 Portal · 浏览器录音</text>
+
+  <rect x="640" y="125" width="160" height="35" rx="4" ry="4" fill="#fff" stroke="#a5d8ff"/>
+  <text x="720" y="148" font-size="13" text-anchor="middle" fill="#495057">Nginx · 反向代理</text>
+
+  <!-- ============== ② 应用层 ============== -->
+  <rect x="60" y="200" width="780" height="180" rx="8" ry="8" fill="#ebfbee" stroke="#51cf66" stroke-width="2"/>
+  <text x="80" y="225" font-size="14" font-weight="bold" fill="#2b8a3e">② 应用层（FastAPI 单进程 · uvicorn）</text>
+
+  <rect x="100" y="250" width="240" height="110" rx="4" ry="4" fill="#fff" stroke="#51cf66"/>
+  <text x="220" y="275" font-size="13" font-weight="bold" text-anchor="middle" fill="#2b8a3e">API 路由</text>
+  <text x="220" y="298" font-size="12" text-anchor="middle" fill="#495057">auth / positions / candidates</text>
+  <text x="220" y="318" font-size="12" text-anchor="middle" fill="#495057">interviews / events / portal</text>
+  <text x="220" y="343" font-size="11" text-anchor="middle" fill="#868e96">25 个端点 · JWT + URL token</text>
+
+  <rect x="360" y="250" width="240" height="110" rx="4" ry="4" fill="#fff" stroke="#51cf66"/>
+  <text x="480" y="275" font-size="13" font-weight="bold" text-anchor="middle" fill="#2b8a3e">业务服务</text>
+  <text x="480" y="298" font-size="12" text-anchor="middle" fill="#495057">LLM · Whisper · 简历解析</text>
+  <text x="480" y="318" font-size="12" text-anchor="middle" fill="#495057">报告渲染 · 邮件 · 文件存储</text>
+  <text x="480" y="343" font-size="11" text-anchor="middle" fill="#868e96">services/ · 不知道 HTTP</text>
+
+  <rect x="620" y="250" width="200" height="110" rx="4" ry="4" fill="#fff" stroke="#51cf66"/>
+  <text x="720" y="275" font-size="13" font-weight="bold" text-anchor="middle" fill="#2b8a3e">LangGraph 工作流</text>
+  <text x="720" y="298" font-size="12" text-anchor="middle" fill="#495057">A 出题 → B interrupt</text>
+  <text x="720" y="318" font-size="12" text-anchor="middle" fill="#495057">→ C 校验 → D 报告</text>
+  <text x="720" y="343" font-size="11" text-anchor="middle" fill="#868e96">4 节点 + SqliteSaver</text>
+
+  <!-- ============== ③ 数据层 ============== -->
+  <rect x="60" y="410" width="480" height="100" rx="8" ry="8" fill="#edf2ff" stroke="#5c7cfa" stroke-width="2"/>
+  <text x="80" y="435" font-size="14" font-weight="bold" fill="#364fc7">③ 数据层</text>
+
+  <rect x="100" y="455" width="130" height="45" rx="4" ry="4" fill="#fff" stroke="#5c7cfa"/>
+  <text x="165" y="475" font-size="12" font-weight="bold" text-anchor="middle" fill="#495057">SQLite WAL</text>
+  <text x="165" y="491" font-size="11" text-anchor="middle" fill="#868e96">6 张业务表</text>
+
+  <rect x="250" y="455" width="130" height="45" rx="4" ry="4" fill="#fff" stroke="#5c7cfa"/>
+  <text x="315" y="475" font-size="12" font-weight="bold" text-anchor="middle" fill="#495057">文件存储</text>
+  <text x="315" y="491" font-size="11" text-anchor="middle" fill="#868e96">resume / audio / report</text>
+
+  <rect x="400" y="455" width="120" height="45" rx="4" ry="4" fill="#fff" stroke="#5c7cfa"/>
+  <text x="460" y="475" font-size="12" font-weight="bold" text-anchor="middle" fill="#495057">Checkpoint</text>
+  <text x="460" y="491" font-size="11" text-anchor="middle" fill="#868e96">LangGraph SQLite</text>
+
+  <!-- ============== ④ 外部 AI ============== -->
+  <rect x="580" y="410" width="260" height="100" rx="8" ry="8" fill="#f3f0ff" stroke="#845ef7" stroke-width="2"/>
+  <text x="600" y="435" font-size="14" font-weight="bold" fill="#5f3dc4">④ 外部 AI</text>
+
+  <rect x="610" y="455" width="200" height="45" rx="4" ry="4" fill="#fff" stroke="#845ef7"/>
+  <text x="710" y="475" font-size="12" font-weight="bold" text-anchor="middle" fill="#495057">DeepSeek / Qwen / GLM</text>
+  <text x="710" y="491" font-size="11" text-anchor="middle" fill="#868e96">OpenAI 兼容 API</text>
+
+  <rect x="610" y="500" width="0" height="0"/>  <!-- 占位 -->
+
+  <!-- ============== ⑤ 异步机制 ============== -->
+  <rect x="60" y="540" width="780" height="60" rx="8" ry="8" fill="#fff4e6" stroke="#ff922b" stroke-width="2"/>
+  <text x="80" y="565" font-size="14" font-weight="bold" fill="#d9480f">⑤ 异步机制</text>
+  <text x="200" y="580" font-size="13" fill="#495057">SSE 实时进度推送</text>
+  <text x="380" y="580" font-size="13" fill="#495057">APScheduler 卡住巡检（每 5 分钟）</text>
+  <text x="640" y="580" font-size="13" fill="#495057">Whisper 后台转写</text>
+
+  <!-- ============== 数据流箭头 ============== -->
+  <!-- 客户端 → Nginx → FastAPI（顶部单线）-->
+  <path d="M 720 160 L 720 200" stroke="#adb5bd" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <text x="730" y="185" font-size="11" fill="#868e96">HTTPS</text>
+
+  <!-- API 路由 ↔ 业务服务（横向）-->
+  <path d="M 340 305 L 360 305" stroke="#adb5bd" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- 业务服务 ↔ LangGraph（横向）-->
+  <path d="M 600 305 L 620 305" stroke="#adb5bd" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- 应用层 → 数据层（向下）-->
+  <path d="M 250 360 L 165 455" stroke="#adb5bd" stroke-width="1.5" fill="none" stroke-dasharray="4,3" marker-end="url(#arrow)"/>
+  <path d="M 480 360 L 315 455" stroke="#adb5bd" stroke-width="1.5" fill="none" stroke-dasharray="4,3" marker-end="url(#arrow)"/>
+  <path d="M 480 360 L 460 455" stroke="#adb5bd" stroke-width="1.5" fill="none" stroke-dasharray="4,3" marker-end="url(#arrow)"/>
+
+  <!-- LangGraph → 外部 AI（斜向下）-->
+  <path d="M 720 360 L 710 455" stroke="#adb5bd" stroke-width="1.5" fill="none" stroke-dasharray="4,3" marker-end="url(#arrow)"/>
+
+  <!-- 异步机制 → 应用层（向上）-->
+  <path d="M 200 540 L 200 360" stroke="#adb5bd" stroke-width="1" fill="none" stroke-dasharray="2,2" marker-end="url(#arrow)"/>
+  <text x="208" y="450" font-size="10" fill="#868e96">调度</text>
+
+  <path d="M 380 540 L 380 360" stroke="#adb5bd" stroke-width="1" fill="none" stroke-dasharray="2,2" marker-end="url(#arrow)"/>
+
+  <path d="M 640 540 L 640 360" stroke="#adb5bd" stroke-width="1" fill="none" stroke-dasharray="2,2" marker-end="url(#arrow)"/>
+
+  <!-- 箭头 marker -->
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <polygon points="0 0, 8 4, 0 8" fill="#adb5bd"/>
+    </marker>
+  </defs>
+</svg>

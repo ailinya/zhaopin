@@ -1,0 +1,68 @@
+version: "3.9"
+
+# ============================================================
+# AI 智能招聘面试系统 - Docker Compose
+# 2 个服务：api（FastAPI）+ nginx（反代 + 静态文件 + SSE 优化）
+# 详细部署说明见 docs/07_deployment-v1.0.md（待写）
+# ============================================================
+
+services:
+  api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: interview-api
+    restart: unless-stopped
+    volumes:
+      # 持久化文件存储（简历/音频/报告）
+      - ./backend/storage:/app/storage
+      # 持久化 SQLite 数据库
+      - ./backend/interview.db:/app/interview.db
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - DATABASE_URL=sqlite:///./interview.db
+      - STORAGE_PATH=/app/storage
+      - LLM_PROVIDER=${LLM_PROVIDER:-deepseek}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OPENAI_BASE_URL=${OPENAI_BASE_URL}
+      - LLM_MODEL=${LLM_MODEL:-deepseek-chat}
+      - JWT_SECRET_KEY=${JWT_SECRET_KEY}
+      - JWT_ALGORITHM=${JWT_ALGORITHM:-HS256}
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - WHISPER_MODEL=${WHISPER_MODEL:-base}
+      - WHISPER_DEVICE=${WHISPER_DEVICE:-auto}
+      - CORS_ORIGINS=${CORS_ORIGINS:-["http://localhost:5173"]}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import httpx; httpx.get('http://localhost:8000/healthz').raise_for_status()"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s  # Whisper 模型加载需要时间
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  nginx:
+    image: nginx:1.27-alpine
+    container_name: interview-nginx
+    restart: unless-stopped
+    depends_on:
+      api:
+        condition: service_healthy
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/ssl:/etc/nginx/ssl:ro
+      # 前端构建产物（先 cd frontend && pnpm build）
+      - ./frontend/dist:/usr/share/nginx/html:ro
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

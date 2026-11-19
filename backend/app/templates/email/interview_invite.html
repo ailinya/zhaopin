@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>面试邀请</title>
+  <style>
+    body { font-family: -apple-system, "Microsoft YaHei", sans-serif; background: #f5f5f5; padding: 20px; }
+    .container { max-width: 600px; margin: 0 auto; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    .header { background: linear-gradient(135deg, #3498db 0%, #2980b9 100%); color: #fff; padding: 30px; text-align: center; }
+    .header h1 { margin: 0 0 10px; font-size: 24px; }
+    .header p { margin: 0; opacity: 0.9; }
+    .content { padding: 30px; color: #2c3e50; line-height: 1.8; }
+    .button { display: inline-block; background: #27ae60; color: #fff !important; padding: 12px 30px; text-decoration: none; border-radius: 4px; margin: 20px 0; font-weight: bold; }
+    .footer { background: #ecf0f1; padding: 20px; text-align: center; color: #7f8c8d; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>面试邀请</h1>
+      <p>AI 智能招聘面试系统</p>
+    </div>
+    <div class="content">
+      <p>尊敬的 <strong>{{ candidate_name }}</strong>，您好：</p>
+      <p>恭喜您通过简历筛选！我们诚挚邀请您参加 <strong>{{ position_name }}</strong> 岗位的在线面试。</p>
+      <p><strong>面试时间：</strong>{{ interview_time }}</p>
+      <p>本次面试为 AI 智能面试，请在电脑端使用 Chrome / Edge / Firefox 浏览器参加。面试过程包括：</p>
+      <ul>
+        <li>系统将播放 10 道面试题（语音朗读）</li>
+        <li>请用麦克风清晰作答</li>
+        <li>作答完成后系统会自动生成评估报告</li>
+      </ul>
+      <p style="text-align: center;">
+        <a href="{{ interview_url }}" class="button">立即开始面试</a>
+      </p>
+      <p>如有问题，请联系 HR。</p>
+      <p>祝面试顺利！</p>
+    </div>
+    <div class="footer">
+      本邮件由系统自动发送，请勿直接回复<br>
+      AI Interview System &copy; 2026
+    </div>
+  </div>
+</body>
+</html>

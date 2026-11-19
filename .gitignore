@@ -1,0 +1,73 @@
+# ===== 敏感信息（绝对不能提交）=====
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+nginx/ssl/*.pem
+nginx/ssl/*.key
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+
+# 虚拟环境
+.venv/
+venv/
+env/
+backend/.venv/
+
+# ===== Node / Frontend =====
+node_modules/
+.pnpm-store/
+dist/
+build/
+.vite/
+*.tsbuildinfo
+
+# ===== 数据库 =====
+# *.db                    # 注释掉：允许提交 interview.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+workflow_checkpoints.db   # 运行时 checkpoint，不提交
+
+# ===== 文件存储（运行时数据）=====
+backend/storage/resumes/
+backend/storage/audio/
+backend/storage/reports/
+backend/storage/logs/
+backend/storage/*
+!backend/storage/.gitkeep
+
+.pytest_tmp
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===== 测试 / 调试 =====
+.coverage
+.tox/
+.cache/
+.pytest_debug.log
+
+# ===== Docker =====
+docker-compose.override.yml

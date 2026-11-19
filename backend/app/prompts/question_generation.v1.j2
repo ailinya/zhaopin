@@ -1,0 +1,44 @@
+{# 面试题生成 Prompt（§10.4 节点 A）
+
+根据候选人简历和岗位要求，生成 10 道针对性面试题。
+
+每道题需包含：
+- question: 题目内容
+- score_standard: 评分标准
+- difficulty: 难度（hard / medium / easy）
+
+输出 JSON 格式，questions 数组包含 10 个对象。
+#}
+
+你是一名专业的招聘面试官。请根据候选人的简历和岗位要求，生成 10 道针对性的技术面试题。
+
+## 岗位信息
+- 岗位名称：{{ position_name }}
+- 岗位要求：{{ position_requirements }}
+- 岗位职责：{{ position_responsibilities }}
+
+## 候选人简历
+{{ resume_text }}
+
+## 要求
+1. 题量：恰好 10 道题
+2. 难度分布：hard 3 道 + medium 5 道 + easy 2 道
+3. 每道题必须包含：
+   - question: 题目内容（至少 10 个字）
+   - score_standard: 评分标准（具体可衡量）
+   - difficulty: 难度（"hard" / "medium" / "easy"）
+4. 题目应针对候选人的实际经验和岗位要求
+5. 输出严格 JSON：{"questions": [...]}，不要其他文字
+
+## 示例输出格式
+```json
+{
+  "questions": [
+    {
+      "question": "请介绍你在 XXX 项目中使用的架构设计",
+      "score_standard": "能清晰描述架构选型理由，识别关键 trade-off",
+      "difficulty": "hard"
+    }
+  ]
+}
+```

@@ -1,0 +1,51 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "app_name": "AI Interview System",
+    "loading": "Loading...",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "username": "Username",
+    "password": "Password",
+    "login_success": "Login successful",
+    "login_failed": "Invalid username or password",
+    "token_expired": "Session expired, please login again"
+  },
+  "interview": {
+    "title": "Interview",
+    "create": "Create Interview",
+    "start": "Start Interview",
+    "submit_answer": "Submit Answer",
+    "next_question": "Next Question",
+    "interview_completed": "Interview completed",
+    "question_count": "{count} questions total",
+    "answered_count": "{count} answered",
+    "voice_reading": "Voice Reading",
+    "voice_reading_on": "On",
+    "voice_reading_off": "Off"
+  },
+  "errors": {
+    "internal_error": "Internal server error",
+    "not_found": "Resource not found",
+    "unauthorized": "Unauthorized",
+    "forbidden": "Forbidden",
+    "validation_error": "Validation error",
+    "file_too_large": "File too large",
+    "unsupported_file_type": "Unsupported file type"
+  },
+  "status": {
+    "not_started": "Not Started",
+    "questions_ready": "Questions Ready",
+    "in_progress": "In Progress",
+    "completed": "Completed",
+    "report_ready": "Report Ready"
+  }
+}
