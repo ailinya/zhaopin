@@ -1,0 +1,269 @@
+{
+  "id": "2026-11-19-161850",
+  "generated_at": "2026-11-19T08:18:50.3258429Z",
+  "language": "en",
+  "pages": [
+    {
+      "slug": "1-overview",
+      "title": "Overview",
+      "file": "1-overview.md",
+      "section": "Get Started",
+      "level": "Beginner"
+    },
+    {
+      "slug": "2-quick-start",
+      "title": "Quick Start",
+      "file": "2-quick-start.md",
+      "section": "Get Started",
+      "level": "Beginner"
+    },
+    {
+      "slug": "3-recruitment-workflow-and-user-roles",
+      "title": "Recruitment Workflow and User Roles",
+      "file": "3-recruitment-workflow-and-user-roles.md",
+      "section": "Get Started",
+      "group": "Onboarding",
+      "level": "Beginner"
+    },
+    {
+      "slug": "4-repository-map-and-recommended-reading-paths",
+      "title": "Repository Map and Recommended Reading Paths",
+      "file": "4-repository-map-and-recommended-reading-paths.md",
+      "section": "Get Started",
+      "group": "Onboarding",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "5-local-configuration-and-environment-variables",
+      "title": "Local Configuration and Environment Variables",
+      "file": "5-local-configuration-and-environment-variables.md",
+      "section": "Get Started",
+      "group": "Onboarding",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "6-system-architecture-and-component-boundaries",
+      "title": "System Architecture and Component Boundaries",
+      "file": "6-system-architecture-and-component-boundaries.md",
+      "section": "Deep Dive",
+      "group": "Architecture and Domain Model",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "7-recruitment-domain-model-and-data-relationships",
+      "title": "Recruitment Domain Model and Data Relationships",
+      "file": "7-recruitment-domain-model-and-data-relationships.md",
+      "section": "Deep Dive",
+      "group": "Architecture and Domain Model",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "8-api-contracts-validation-and-error-handling",
+      "title": "API Contracts, Validation, and Error Handling",
+      "file": "8-api-contracts-validation-and-error-handling.md",
+      "section": "Deep Dive",
+      "group": "Architecture and Domain Model",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "9-authentication-authorization-and-candidate-access",
+      "title": "Authentication, Authorization, and Candidate Access",
+      "file": "9-authentication-authorization-and-candidate-access.md",
+      "section": "Deep Dive",
+      "group": "Architecture and Domain Model",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "10-interview-workflow-state-and-lifecycle",
+      "title": "Interview Workflow State and Lifecycle",
+      "file": "10-interview-workflow-state-and-lifecycle.md",
+      "section": "Deep Dive",
+      "group": "Interview Automation",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "11-langgraph-nodes-interrupts-and-resume-semantics",
+      "title": "LangGraph Nodes, Interrupts, and Resume Semantics",
+      "file": "11-langgraph-nodes-interrupts-and-resume-semantics.md",
+      "section": "Deep Dive",
+      "group": "Interview Automation",
+      "level": "Advanced"
+    },
+    {
+      "slug": "12-workflow-dependency-injection-and-checkpoint-persistence",
+      "title": "Workflow Dependency Injection and Checkpoint Persistence",
+      "file": "12-workflow-dependency-injection-and-checkpoint-persistence.md",
+      "section": "Deep Dive",
+      "group": "Interview Automation",
+      "level": "Advanced"
+    },
+    {
+      "slug": "13-llm-providers-prompt-templates-and-structured-outputs",
+      "title": "LLM Providers, Prompt Templates, and Structured Outputs",
+      "file": "13-llm-providers-prompt-templates-and-structured-outputs.md",
+      "section": "Deep Dive",
+      "group": "Interview Automation",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "14-resume-parsing-and-candidate-data-preparation",
+      "title": "Resume Parsing and Candidate Data Preparation",
+      "file": "14-resume-parsing-and-candidate-data-preparation.md",
+      "section": "Deep Dive",
+      "group": "Interview Automation",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "15-speech-recording-ffmpeg-and-whisper-transcription",
+      "title": "Speech Recording, FFmpeg, and Whisper Transcription",
+      "file": "15-speech-recording-ffmpeg-and-whisper-transcription.md",
+      "section": "Deep Dive",
+      "group": "Interview Automation",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "16-evaluation-reports-and-pdf-rendering",
+      "title": "Evaluation Reports and PDF Rendering",
+      "file": "16-evaluation-reports-and-pdf-rendering.md",
+      "section": "Deep Dive",
+      "group": "Interview Automation",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "17-service-layer-repositories-and-database-sessions",
+      "title": "Service Layer, Repositories, and Database Sessions",
+      "file": "17-service-layer-repositories-and-database-sessions.md",
+      "section": "Deep Dive",
+      "group": "Backend Services and Integration",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "18-sqlite-wal-business-data-and-workflow-checkpoints",
+      "title": "SQLite WAL, Business Data, and Workflow Checkpoints",
+      "file": "18-sqlite-wal-business-data-and-workflow-checkpoints.md",
+      "section": "Deep Dive",
+      "group": "Backend Services and Integration",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "19-server-sent-events-and-real-time-progress-delivery",
+      "title": "Server-Sent Events and Real-Time Progress Delivery",
+      "file": "19-server-sent-events-and-real-time-progress-delivery.md",
+      "section": "Deep Dive",
+      "group": "Backend Services and Integration",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "20-background-scheduling-and-stalled-interview-recovery",
+      "title": "Background Scheduling and Stalled Interview Recovery",
+      "file": "20-background-scheduling-and-stalled-interview-recovery.md",
+      "section": "Deep Dive",
+      "group": "Backend Services and Integration",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "21-email-templates-and-notification-delivery",
+      "title": "Email Templates and Notification Delivery",
+      "file": "21-email-templates-and-notification-delivery.md",
+      "section": "Deep Dive",
+      "group": "Backend Services and Integration",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "22-react-application-entry-routing-and-page-responsibilities",
+      "title": "React Application Entry, Routing, and Page Responsibilities",
+      "file": "22-react-application-entry-routing-and-page-responsibilities.md",
+      "section": "Deep Dive",
+      "group": "Frontend Development",
+      "level": "Beginner"
+    },
+    {
+      "slug": "23-api-client-authentication-state-and-request-handling",
+      "title": "API Client, Authentication State, and Request Handling",
+      "file": "23-api-client-authentication-state-and-request-handling.md",
+      "section": "Deep Dive",
+      "group": "Frontend Development",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "24-tanstack-query-forms-and-client-side-validation",
+      "title": "TanStack Query, Forms, and Client-Side Validation",
+      "file": "24-tanstack-query-forms-and-client-side-validation.md",
+      "section": "Deep Dive",
+      "group": "Frontend Development",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "25-candidate-portal-audio-capture-and-interview-experience",
+      "title": "Candidate Portal, Audio Capture, and Interview Experience",
+      "file": "25-candidate-portal-audio-capture-and-interview-experience.md",
+      "section": "Deep Dive",
+      "group": "Frontend Development",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "26-sse-subscription-and-typed-event-handling",
+      "title": "SSE Subscription and Typed Event Handling",
+      "file": "26-sse-subscription-and-typed-event-handling.md",
+      "section": "Deep Dive",
+      "group": "Frontend Development",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "27-accessible-ui-primitives-styling-and-shared-components",
+      "title": "Accessible UI Primitives, Styling, and Shared Components",
+      "file": "27-accessible-ui-primitives-styling-and-shared-components.md",
+      "section": "Deep Dive",
+      "group": "Frontend Development",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "28-backend-test-strategy-and-workflow-test-doubles",
+      "title": "Backend Test Strategy and Workflow Test Doubles",
+      "file": "28-backend-test-strategy-and-workflow-test-doubles.md",
+      "section": "Deep Dive",
+      "group": "Quality, Operations, and Extension",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "29-frontend-type-checking-linting-and-production-builds",
+      "title": "Frontend Type Checking, Linting, and Production Builds",
+      "file": "29-frontend-type-checking-linting-and-production-builds.md",
+      "section": "Deep Dive",
+      "group": "Quality, Operations, and Extension",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "30-docker-compose-nginx-and-sse-aware-deployment",
+      "title": "Docker Compose, Nginx, and SSE-Aware Deployment",
+      "file": "30-docker-compose-nginx-and-sse-aware-deployment.md",
+      "section": "Deep Dive",
+      "group": "Quality, Operations, and Extension",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "31-persistent-files-database-backups-and-operational-safety",
+      "title": "Persistent Files, Database Backups, and Operational Safety",
+      "file": "31-persistent-files-database-backups-and-operational-safety.md",
+      "section": "Deep Dive",
+      "group": "Quality, Operations, and Extension",
+      "level": "Advanced"
+    },
+    {
+      "slug": "32-adding-an-api-feature-across-backend-and-frontend",
+      "title": "Adding an API Feature Across Backend and Frontend",
+      "file": "32-adding-an-api-feature-across-backend-and-frontend.md",
+      "section": "Deep Dive",
+      "group": "Quality, Operations, and Extension",
+      "level": "Advanced"
+    },
+    {
+      "slug": "33-candidate-sourcing-integration-and-future-extension-points",
+      "title": "Candidate Sourcing Integration and Future Extension Points",
+      "file": "33-candidate-sourcing-integration-and-future-extension-points.md",
+      "section": "Deep Dive",
+      "group": "Quality, Operations, and Extension",
+      "level": "Advanced"
+    }
+  ]
+}

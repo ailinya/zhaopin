@@ -1,0 +1,106 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - complementary [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - generic [ref=e8]: 入门指南
+          - link "项目概览" [ref=e9] [cursor=pointer]:
+            - /url: /1-overview
+          - link "快速开始" [ref=e10] [cursor=pointer]:
+            - /url: /2-quick-start
+          - generic [ref=e11]:
+            - button "上手指南" [ref=e12] [cursor=pointer]:
+              - generic [ref=e13]: 上手指南
+              - img [ref=e14]
+            - generic [ref=e16]:
+              - link "招聘工作流程与用户角色" [ref=e17] [cursor=pointer]:
+                - /url: /3-recruitment-workflow-and-user-roles
+              - link "代码库结构与推荐阅读路径" [ref=e18] [cursor=pointer]:
+                - /url: /4-repository-map-and-recommended-reading-paths
+              - link "本地配置与环境变量" [ref=e19] [cursor=pointer]:
+                - /url: /5-local-configuration-and-environment-variables
+        - generic [ref=e20]:
+          - generic [ref=e21]: 深入解析
+          - generic [ref=e22]:
+            - button "架构与领域模型" [ref=e23] [cursor=pointer]:
+              - generic [ref=e24]: 架构与领域模型
+              - img [ref=e25]
+            - generic [ref=e27]:
+              - link "系统架构与组件边界" [ref=e28] [cursor=pointer]:
+                - /url: /6-system-architecture-and-component-boundaries
+              - link "招聘领域模型与数据关系" [ref=e29] [cursor=pointer]:
+                - /url: /7-recruitment-domain-model-and-data-relationships
+              - link "API 契约、数据校验与错误处理" [ref=e30] [cursor=pointer]:
+                - /url: /8-api-contracts-validation-and-error-handling
+              - link "身份认证、权限控制与候选人访问" [ref=e31] [cursor=pointer]:
+                - /url: /9-authentication-authorization-and-candidate-access
+          - generic [ref=e32]:
+            - button "面试自动化" [ref=e33] [cursor=pointer]:
+              - generic [ref=e34]: 面试自动化
+              - img [ref=e35]
+            - generic [ref=e37]:
+              - link "面试工作流状态与生命周期" [ref=e38] [cursor=pointer]:
+                - /url: /10-interview-workflow-state-and-lifecycle
+              - link "LangGraph 节点、中断与恢复语义" [ref=e39] [cursor=pointer]:
+                - /url: /11-langgraph-nodes-interrupts-and-resume-semantics
+              - link "工作流依赖注入与检查点持久化" [ref=e40] [cursor=pointer]:
+                - /url: /12-workflow-dependency-injection-and-checkpoint-persistence
+              - link "大模型提供方、提示词模板与结构化输出" [ref=e41] [cursor=pointer]:
+                - /url: /13-llm-providers-prompt-templates-and-structured-outputs
+              - link "简历解析与候选人数据准备" [ref=e42] [cursor=pointer]:
+                - /url: /14-resume-parsing-and-candidate-data-preparation
+              - link "语音录制、FFmpeg 与 Whisper 转写" [ref=e43] [cursor=pointer]:
+                - /url: /15-speech-recording-ffmpeg-and-whisper-transcription
+              - link "评估报告与 PDF 渲染" [ref=e44] [cursor=pointer]:
+                - /url: /16-evaluation-reports-and-pdf-rendering
+          - generic [ref=e45]:
+            - button "后端服务与集成" [ref=e46] [cursor=pointer]:
+              - generic [ref=e47]: 后端服务与集成
+              - img [ref=e48]
+            - generic [ref=e50]:
+              - link "服务层、仓储与数据库会话" [ref=e51] [cursor=pointer]:
+                - /url: /17-service-layer-repositories-and-database-sessions
+              - link "SQLite WAL、业务数据与工作流检查点" [ref=e52] [cursor=pointer]:
+                - /url: /18-sqlite-wal-business-data-and-workflow-checkpoints
+              - link "服务器发送事件与实时进度推送" [ref=e53] [cursor=pointer]:
+                - /url: /19-server-sent-events-and-real-time-progress-delivery
+              - link "后台调度与停滞面试恢复" [ref=e54] [cursor=pointer]:
+                - /url: /20-background-scheduling-and-stalled-interview-recovery
+              - link "邮件模板与通知发送" [ref=e55] [cursor=pointer]:
+                - /url: /21-email-templates-and-notification-delivery
+          - generic [ref=e56]:
+            - button "前端开发" [ref=e57] [cursor=pointer]:
+              - generic [ref=e58]: 前端开发
+              - img [ref=e59]
+            - generic [ref=e61]:
+              - link "React 应用入口、路由与页面职责" [ref=e62] [cursor=pointer]:
+                - /url: /22-react-application-entry-routing-and-page-responsibilities
+              - link "API 客户端、认证状态与请求处理" [ref=e63] [cursor=pointer]:
+                - /url: /23-api-client-authentication-state-and-request-handling
+              - link "TanStack Query、表单与客户端校验" [ref=e64] [cursor=pointer]:
+                - /url: /24-tanstack-query-forms-and-client-side-validation
+              - link "候选人门户、音频采集与面试体验" [ref=e65] [cursor=pointer]:
+                - /url: /25-candidate-portal-audio-capture-and-interview-experience
+              - link "SSE 订阅与类型化事件处理" [ref=e66] [cursor=pointer]:
+                - /url: /26-sse-subscription-and-typed-event-handling
+              - link "无障碍 UI 基础组件、样式与共享组件" [ref=e67] [cursor=pointer]:
+                - /url: /27-accessible-ui-primitives-styling-and-shared-components
+          - generic [ref=e68]:
+            - button "质量、运维与扩展" [ref=e69] [cursor=pointer]:
+              - generic [ref=e70]: 质量、运维与扩展
+              - img [ref=e71]
+            - generic [ref=e73]:
+              - link "后端测试策略与工作流测试替身" [ref=e74] [cursor=pointer]:
+                - /url: /28-backend-test-strategy-and-workflow-test-doubles
+              - link "前端类型检查、代码检查与生产构建" [ref=e75] [cursor=pointer]:
+                - /url: /29-frontend-type-checking-linting-and-production-builds
+              - link "Docker Compose、Nginx 与支持 SSE 的部署" [ref=e76] [cursor=pointer]:
+                - /url: /30-docker-compose-nginx-and-sse-aware-deployment
+              - link "持久化文件、数据库备份与运维安全" [ref=e77] [cursor=pointer]:
+                - /url: /31-persistent-files-database-backups-and-operational-safety
+              - link "贯穿前后端的 API 功能开发" [ref=e78] [cursor=pointer]:
+                - /url: /32-adding-an-api-feature-across-backend-and-frontend
+              - link "候选人来源集成与未来扩展点" [ref=e79] [cursor=pointer]:
+                - /url: /33-candidate-sourcing-integration-and-future-extension-points
+  - main [ref=e80]:
+    - generic [ref=e82]: Loading wiki page...

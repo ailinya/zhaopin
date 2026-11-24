@@ -1,0 +1,269 @@
+{
+  "id": "2026-11-19-161850-zh-CN",
+  "generated_at": "2026-11-24T08:26:10.017Z",
+  "language": "zh-CN",
+  "pages": [
+    {
+      "slug": "1-overview",
+      "title": "项目概览",
+      "file": "1-overview.md",
+      "section": "入门指南",
+      "level": "入门"
+    },
+    {
+      "slug": "2-quick-start",
+      "title": "快速开始",
+      "file": "2-quick-start.md",
+      "section": "入门指南",
+      "level": "入门"
+    },
+    {
+      "slug": "3-recruitment-workflow-and-user-roles",
+      "title": "招聘工作流程与用户角色",
+      "file": "3-recruitment-workflow-and-user-roles.md",
+      "section": "入门指南",
+      "group": "上手指南",
+      "level": "入门"
+    },
+    {
+      "slug": "4-repository-map-and-recommended-reading-paths",
+      "title": "代码库结构与推荐阅读路径",
+      "file": "4-repository-map-and-recommended-reading-paths.md",
+      "section": "入门指南",
+      "group": "上手指南",
+      "level": "进阶"
+    },
+    {
+      "slug": "5-local-configuration-and-environment-variables",
+      "title": "本地配置与环境变量",
+      "file": "5-local-configuration-and-environment-variables.md",
+      "section": "入门指南",
+      "group": "上手指南",
+      "level": "进阶"
+    },
+    {
+      "slug": "6-system-architecture-and-component-boundaries",
+      "title": "系统架构与组件边界",
+      "file": "6-system-architecture-and-component-boundaries.md",
+      "section": "深入解析",
+      "group": "架构与领域模型",
+      "level": "进阶"
+    },
+    {
+      "slug": "7-recruitment-domain-model-and-data-relationships",
+      "title": "招聘领域模型与数据关系",
+      "file": "7-recruitment-domain-model-and-data-relationships.md",
+      "section": "深入解析",
+      "group": "架构与领域模型",
+      "level": "进阶"
+    },
+    {
+      "slug": "8-api-contracts-validation-and-error-handling",
+      "title": "API 契约、数据校验与错误处理",
+      "file": "8-api-contracts-validation-and-error-handling.md",
+      "section": "深入解析",
+      "group": "架构与领域模型",
+      "level": "进阶"
+    },
+    {
+      "slug": "9-authentication-authorization-and-candidate-access",
+      "title": "身份认证、权限控制与候选人访问",
+      "file": "9-authentication-authorization-and-candidate-access.md",
+      "section": "深入解析",
+      "group": "架构与领域模型",
+      "level": "进阶"
+    },
+    {
+      "slug": "10-interview-workflow-state-and-lifecycle",
+      "title": "面试工作流状态与生命周期",
+      "file": "10-interview-workflow-state-and-lifecycle.md",
+      "section": "深入解析",
+      "group": "面试自动化",
+      "level": "进阶"
+    },
+    {
+      "slug": "11-langgraph-nodes-interrupts-and-resume-semantics",
+      "title": "LangGraph 节点、中断与恢复语义",
+      "file": "11-langgraph-nodes-interrupts-and-resume-semantics.md",
+      "section": "深入解析",
+      "group": "面试自动化",
+      "level": "高级"
+    },
+    {
+      "slug": "12-workflow-dependency-injection-and-checkpoint-persistence",
+      "title": "工作流依赖注入与检查点持久化",
+      "file": "12-workflow-dependency-injection-and-checkpoint-persistence.md",
+      "section": "深入解析",
+      "group": "面试自动化",
+      "level": "高级"
+    },
+    {
+      "slug": "13-llm-providers-prompt-templates-and-structured-outputs",
+      "title": "大模型提供方、提示词模板与结构化输出",
+      "file": "13-llm-providers-prompt-templates-and-structured-outputs.md",
+      "section": "深入解析",
+      "group": "面试自动化",
+      "level": "进阶"
+    },
+    {
+      "slug": "14-resume-parsing-and-candidate-data-preparation",
+      "title": "简历解析与候选人数据准备",
+      "file": "14-resume-parsing-and-candidate-data-preparation.md",
+      "section": "深入解析",
+      "group": "面试自动化",
+      "level": "进阶"
+    },
+    {
+      "slug": "15-speech-recording-ffmpeg-and-whisper-transcription",
+      "title": "语音录制、FFmpeg 与 Whisper 转写",
+      "file": "15-speech-recording-ffmpeg-and-whisper-transcription.md",
+      "section": "深入解析",
+      "group": "面试自动化",
+      "level": "进阶"
+    },
+    {
+      "slug": "16-evaluation-reports-and-pdf-rendering",
+      "title": "评估报告与 PDF 渲染",
+      "file": "16-evaluation-reports-and-pdf-rendering.md",
+      "section": "深入解析",
+      "group": "面试自动化",
+      "level": "进阶"
+    },
+    {
+      "slug": "17-service-layer-repositories-and-database-sessions",
+      "title": "服务层、仓储与数据库会话",
+      "file": "17-service-layer-repositories-and-database-sessions.md",
+      "section": "深入解析",
+      "group": "后端服务与集成",
+      "level": "进阶"
+    },
+    {
+      "slug": "18-sqlite-wal-business-data-and-workflow-checkpoints",
+      "title": "SQLite WAL、业务数据与工作流检查点",
+      "file": "18-sqlite-wal-business-data-and-workflow-checkpoints.md",
+      "section": "深入解析",
+      "group": "后端服务与集成",
+      "level": "进阶"
+    },
+    {
+      "slug": "19-server-sent-events-and-real-time-progress-delivery",
+      "title": "服务器发送事件与实时进度推送",
+      "file": "19-server-sent-events-and-real-time-progress-delivery.md",
+      "section": "深入解析",
+      "group": "后端服务与集成",
+      "level": "进阶"
+    },
+    {
+      "slug": "20-background-scheduling-and-stalled-interview-recovery",
+      "title": "后台调度与停滞面试恢复",
+      "file": "20-background-scheduling-and-stalled-interview-recovery.md",
+      "section": "深入解析",
+      "group": "后端服务与集成",
+      "level": "进阶"
+    },
+    {
+      "slug": "21-email-templates-and-notification-delivery",
+      "title": "邮件模板与通知发送",
+      "file": "21-email-templates-and-notification-delivery.md",
+      "section": "深入解析",
+      "group": "后端服务与集成",
+      "level": "进阶"
+    },
+    {
+      "slug": "22-react-application-entry-routing-and-page-responsibilities",
+      "title": "React 应用入口、路由与页面职责",
+      "file": "22-react-application-entry-routing-and-page-responsibilities.md",
+      "section": "深入解析",
+      "group": "前端开发",
+      "level": "入门"
+    },
+    {
+      "slug": "23-api-client-authentication-state-and-request-handling",
+      "title": "API 客户端、认证状态与请求处理",
+      "file": "23-api-client-authentication-state-and-request-handling.md",
+      "section": "深入解析",
+      "group": "前端开发",
+      "level": "进阶"
+    },
+    {
+      "slug": "24-tanstack-query-forms-and-client-side-validation",
+      "title": "TanStack Query、表单与客户端校验",
+      "file": "24-tanstack-query-forms-and-client-side-validation.md",
+      "section": "深入解析",
+      "group": "前端开发",
+      "level": "进阶"
+    },
+    {
+      "slug": "25-candidate-portal-audio-capture-and-interview-experience",
+      "title": "候选人门户、音频采集与面试体验",
+      "file": "25-candidate-portal-audio-capture-and-interview-experience.md",
+      "section": "深入解析",
+      "group": "前端开发",
+      "level": "进阶"
+    },
+    {
+      "slug": "26-sse-subscription-and-typed-event-handling",
+      "title": "SSE 订阅与类型化事件处理",
+      "file": "26-sse-subscription-and-typed-event-handling.md",
+      "section": "深入解析",
+      "group": "前端开发",
+      "level": "进阶"
+    },
+    {
+      "slug": "27-accessible-ui-primitives-styling-and-shared-components",
+      "title": "无障碍 UI 基础组件、样式与共享组件",
+      "file": "27-accessible-ui-primitives-styling-and-shared-components.md",
+      "section": "深入解析",
+      "group": "前端开发",
+      "level": "进阶"
+    },
+    {
+      "slug": "28-backend-test-strategy-and-workflow-test-doubles",
+      "title": "后端测试策略与工作流测试替身",
+      "file": "28-backend-test-strategy-and-workflow-test-doubles.md",
+      "section": "深入解析",
+      "group": "质量、运维与扩展",
+      "level": "进阶"
+    },
+    {
+      "slug": "29-frontend-type-checking-linting-and-production-builds",
+      "title": "前端类型检查、代码检查与生产构建",
+      "file": "29-frontend-type-checking-linting-and-production-builds.md",
+      "section": "深入解析",
+      "group": "质量、运维与扩展",
+      "level": "进阶"
+    },
+    {
+      "slug": "30-docker-compose-nginx-and-sse-aware-deployment",
+      "title": "Docker Compose、Nginx 与支持 SSE 的部署",
+      "file": "30-docker-compose-nginx-and-sse-aware-deployment.md",
+      "section": "深入解析",
+      "group": "质量、运维与扩展",
+      "level": "进阶"
+    },
+    {
+      "slug": "31-persistent-files-database-backups-and-operational-safety",
+      "title": "持久化文件、数据库备份与运维安全",
+      "file": "31-persistent-files-database-backups-and-operational-safety.md",
+      "section": "深入解析",
+      "group": "质量、运维与扩展",
+      "level": "高级"
+    },
+    {
+      "slug": "32-adding-an-api-feature-across-backend-and-frontend",
+      "title": "贯穿前后端的 API 功能开发",
+      "file": "32-adding-an-api-feature-across-backend-and-frontend.md",
+      "section": "深入解析",
+      "group": "质量、运维与扩展",
+      "level": "高级"
+    },
+    {
+      "slug": "33-candidate-sourcing-integration-and-future-extension-points",
+      "title": "候选人来源集成与未来扩展点",
+      "file": "33-candidate-sourcing-integration-and-future-extension-points.md",
+      "section": "深入解析",
+      "group": "质量、运维与扩展",
+      "level": "高级"
+    }
+  ]
+}

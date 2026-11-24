@@ -1,7 +1,7 @@
 {
-  "id": "2026-11-19-161850",
-  "generated_at": "2026-11-19T08:18:50.3258429Z",
-  "language": "en",
+  "id": "2026-11-24-161502",
+  "generated_at": "2026-11-24T08:15:02.9300222Z",
+  "language": "zh",
   "pages": [
     {
       "slug": "1-overview",
@@ -18,251 +18,195 @@
       "level": "Beginner"
     },
     {
-      "slug": "3-recruitment-workflow-and-user-roles",
-      "title": "Recruitment Workflow and User Roles",
-      "file": "3-recruitment-workflow-and-user-roles.md",
+      "slug": "3-xi-tong-ye-wu-liu-cheng-yu-he-xin-jie-zhi",
+      "title": "系统业务流程与核心价值",
+      "file": "3-xi-tong-ye-wu-liu-cheng-yu-he-xin-jie-zhi.md",
       "section": "Get Started",
-      "group": "Onboarding",
+      "group": "项目导航与使用角色",
       "level": "Beginner"
     },
     {
-      "slug": "4-repository-map-and-recommended-reading-paths",
-      "title": "Repository Map and Recommended Reading Paths",
-      "file": "4-repository-map-and-recommended-reading-paths.md",
+      "slug": "4-hr-hou-xuan-ren-yu-kai-fa-yun-wei-ren-yuan-de-shi-yong-lu-jing",
+      "title": "HR、候选人与开发运维人员的使用路径",
+      "file": "4-hr-hou-xuan-ren-yu-kai-fa-yun-wei-ren-yuan-de-shi-yong-lu-jing.md",
       "section": "Get Started",
-      "group": "Onboarding",
-      "level": "Intermediate"
-    },
-    {
-      "slug": "5-local-configuration-and-environment-variables",
-      "title": "Local Configuration and Environment Variables",
-      "file": "5-local-configuration-and-environment-variables.md",
-      "section": "Get Started",
-      "group": "Onboarding",
-      "level": "Intermediate"
-    },
-    {
-      "slug": "6-system-architecture-and-component-boundaries",
-      "title": "System Architecture and Component Boundaries",
-      "file": "6-system-architecture-and-component-boundaries.md",
-      "section": "Deep Dive",
-      "group": "Architecture and Domain Model",
-      "level": "Intermediate"
-    },
-    {
-      "slug": "7-recruitment-domain-model-and-data-relationships",
-      "title": "Recruitment Domain Model and Data Relationships",
-      "file": "7-recruitment-domain-model-and-data-relationships.md",
-      "section": "Deep Dive",
-      "group": "Architecture and Domain Model",
-      "level": "Intermediate"
-    },
-    {
-      "slug": "8-api-contracts-validation-and-error-handling",
-      "title": "API Contracts, Validation, and Error Handling",
-      "file": "8-api-contracts-validation-and-error-handling.md",
-      "section": "Deep Dive",
-      "group": "Architecture and Domain Model",
-      "level": "Intermediate"
-    },
-    {
-      "slug": "9-authentication-authorization-and-candidate-access",
-      "title": "Authentication, Authorization, and Candidate Access",
-      "file": "9-authentication-authorization-and-candidate-access.md",
-      "section": "Deep Dive",
-      "group": "Architecture and Domain Model",
-      "level": "Intermediate"
-    },
-    {
-      "slug": "10-interview-workflow-state-and-lifecycle",
-      "title": "Interview Workflow State and Lifecycle",
-      "file": "10-interview-workflow-state-and-lifecycle.md",
-      "section": "Deep Dive",
-      "group": "Interview Automation",
-      "level": "Intermediate"
-    },
-    {
-      "slug": "11-langgraph-nodes-interrupts-and-resume-semantics",
-      "title": "LangGraph Nodes, Interrupts, and Resume Semantics",
-      "file": "11-langgraph-nodes-interrupts-and-resume-semantics.md",
-      "section": "Deep Dive",
-      "group": "Interview Automation",
-      "level": "Advanced"
-    },
-    {
-      "slug": "12-workflow-dependency-injection-and-checkpoint-persistence",
-      "title": "Workflow Dependency Injection and Checkpoint Persistence",
-      "file": "12-workflow-dependency-injection-and-checkpoint-persistence.md",
-      "section": "Deep Dive",
-      "group": "Interview Automation",
-      "level": "Advanced"
-    },
-    {
-      "slug": "13-llm-providers-prompt-templates-and-structured-outputs",
-      "title": "LLM Providers, Prompt Templates, and Structured Outputs",
-      "file": "13-llm-providers-prompt-templates-and-structured-outputs.md",
-      "section": "Deep Dive",
-      "group": "Interview Automation",
-      "level": "Intermediate"
-    },
-    {
-      "slug": "14-resume-parsing-and-candidate-data-preparation",
-      "title": "Resume Parsing and Candidate Data Preparation",
-      "file": "14-resume-parsing-and-candidate-data-preparation.md",
-      "section": "Deep Dive",
-      "group": "Interview Automation",
-      "level": "Intermediate"
-    },
-    {
-      "slug": "15-speech-recording-ffmpeg-and-whisper-transcription",
-      "title": "Speech Recording, FFmpeg, and Whisper Transcription",
-      "file": "15-speech-recording-ffmpeg-and-whisper-transcription.md",
-      "section": "Deep Dive",
-      "group": "Interview Automation",
-      "level": "Intermediate"
-    },
-    {
-      "slug": "16-evaluation-reports-and-pdf-rendering",
-      "title": "Evaluation Reports and PDF Rendering",
-      "file": "16-evaluation-reports-and-pdf-rendering.md",
-      "section": "Deep Dive",
-      "group": "Interview Automation",
-      "level": "Intermediate"
-    },
-    {
-      "slug": "17-service-layer-repositories-and-database-sessions",
-      "title": "Service Layer, Repositories, and Database Sessions",
-      "file": "17-service-layer-repositories-and-database-sessions.md",
-      "section": "Deep Dive",
-      "group": "Backend Services and Integration",
-      "level": "Intermediate"
-    },
-    {
-      "slug": "18-sqlite-wal-business-data-and-workflow-checkpoints",
-      "title": "SQLite WAL, Business Data, and Workflow Checkpoints",
-      "file": "18-sqlite-wal-business-data-and-workflow-checkpoints.md",
-      "section": "Deep Dive",
-      "group": "Backend Services and Integration",
-      "level": "Intermediate"
-    },
-    {
-      "slug": "19-server-sent-events-and-real-time-progress-delivery",
-      "title": "Server-Sent Events and Real-Time Progress Delivery",
-      "file": "19-server-sent-events-and-real-time-progress-delivery.md",
-      "section": "Deep Dive",
-      "group": "Backend Services and Integration",
-      "level": "Intermediate"
-    },
-    {
-      "slug": "20-background-scheduling-and-stalled-interview-recovery",
-      "title": "Background Scheduling and Stalled Interview Recovery",
-      "file": "20-background-scheduling-and-stalled-interview-recovery.md",
-      "section": "Deep Dive",
-      "group": "Backend Services and Integration",
-      "level": "Intermediate"
-    },
-    {
-      "slug": "21-email-templates-and-notification-delivery",
-      "title": "Email Templates and Notification Delivery",
-      "file": "21-email-templates-and-notification-delivery.md",
-      "section": "Deep Dive",
-      "group": "Backend Services and Integration",
-      "level": "Intermediate"
-    },
-    {
-      "slug": "22-react-application-entry-routing-and-page-responsibilities",
-      "title": "React Application Entry, Routing, and Page Responsibilities",
-      "file": "22-react-application-entry-routing-and-page-responsibilities.md",
-      "section": "Deep Dive",
-      "group": "Frontend Development",
+      "group": "项目导航与使用角色",
       "level": "Beginner"
     },
     {
-      "slug": "23-api-client-authentication-state-and-request-handling",
-      "title": "API Client, Authentication State, and Request Handling",
-      "file": "23-api-client-authentication-state-and-request-handling.md",
-      "section": "Deep Dive",
-      "group": "Frontend Development",
+      "slug": "5-ben-di-huan-jing-pei-zhi-yu-fu-wu-qi-dong",
+      "title": "本地环境配置与服务启动",
+      "file": "5-ben-di-huan-jing-pei-zhi-yu-fu-wu-qi-dong.md",
+      "section": "Get Started",
+      "group": "开发环境与日常工作",
+      "level": "Beginner"
+    },
+    {
+      "slug": "6-huan-jing-bian-liang-mo-xing-fu-wu-yu-yu-yin-shi-bie-pei-zhi",
+      "title": "环境变量、模型服务与语音识别配置",
+      "file": "6-huan-jing-bian-liang-mo-xing-fu-wu-yu-yu-yin-shi-bie-pei-zhi.md",
+      "section": "Get Started",
+      "group": "开发环境与日常工作",
       "level": "Intermediate"
     },
     {
-      "slug": "24-tanstack-query-forms-and-client-side-validation",
-      "title": "TanStack Query, Forms, and Client-Side Validation",
-      "file": "24-tanstack-query-forms-and-client-side-validation.md",
-      "section": "Deep Dive",
-      "group": "Frontend Development",
+      "slug": "7-yun-xing-ce-shi-dai-ma-jian-cha-yu-lei-xing-xiao-yan",
+      "title": "运行测试、代码检查与类型校验",
+      "file": "7-yun-xing-ce-shi-dai-ma-jian-cha-yu-lei-xing-xiao-yan.md",
+      "section": "Get Started",
+      "group": "开发环境与日常工作",
       "level": "Intermediate"
     },
     {
-      "slug": "25-candidate-portal-audio-capture-and-interview-experience",
-      "title": "Candidate Portal, Audio Capture, and Interview Experience",
-      "file": "25-candidate-portal-audio-capture-and-interview-experience.md",
+      "slug": "8-qian-hou-duan-fen-ceng-jia-gou-yu-mo-kuai-zhi-ze",
+      "title": "前后端分层架构与模块职责",
+      "file": "8-qian-hou-duan-fen-ceng-jia-gou-yu-mo-kuai-zhi-ze.md",
       "section": "Deep Dive",
-      "group": "Frontend Development",
+      "group": "系统架构与业务数据",
       "level": "Intermediate"
     },
     {
-      "slug": "26-sse-subscription-and-typed-event-handling",
-      "title": "SSE Subscription and Typed Event Handling",
-      "file": "26-sse-subscription-and-typed-event-handling.md",
+      "slug": "9-guan-xi-mo-xing-sqlite-pei-zhi-yu-shu-ju-ku-chu-shi-hua",
+      "title": "关系模型、SQLite 配置与数据库初始化",
+      "file": "9-guan-xi-mo-xing-sqlite-pei-zhi-yu-shu-ju-ku-chu-shi-hua.md",
       "section": "Deep Dive",
-      "group": "Frontend Development",
+      "group": "系统架构与业务数据",
       "level": "Intermediate"
     },
     {
-      "slug": "27-accessible-ui-primitives-styling-and-shared-components",
-      "title": "Accessible UI Primitives, Styling, and Shared Components",
-      "file": "27-accessible-ui-primitives-styling-and-shared-components.md",
+      "slug": "10-wen-jian-cun-chu-jian-li-jie-xi-yu-shu-ju-sheng-ming-zhou-qi",
+      "title": "文件存储、简历解析与数据生命周期",
+      "file": "10-wen-jian-cun-chu-jian-li-jie-xi-yu-shu-ju-sheng-ming-zhou-qi.md",
       "section": "Deep Dive",
-      "group": "Frontend Development",
+      "group": "系统架构与业务数据",
       "level": "Intermediate"
     },
     {
-      "slug": "28-backend-test-strategy-and-workflow-test-doubles",
-      "title": "Backend Test Strategy and Workflow Test Doubles",
-      "file": "28-backend-test-strategy-and-workflow-test-doubles.md",
+      "slug": "11-fastapi-ying-yong-sheng-ming-zhou-qi-lu-you-yu-tong-cuo-wu-xiang-ying",
+      "title": "FastAPI 应用生命周期、路由与统一错误响应",
+      "file": "11-fastapi-ying-yong-sheng-ming-zhou-qi-lu-you-yu-tong-cuo-wu-xiang-ying.md",
       "section": "Deep Dive",
-      "group": "Quality, Operations, and Extension",
+      "group": "后端接口与安全",
       "level": "Intermediate"
     },
     {
-      "slug": "29-frontend-type-checking-linting-and-production-builds",
-      "title": "Frontend Type Checking, Linting, and Production Builds",
-      "file": "29-frontend-type-checking-linting-and-production-builds.md",
+      "slug": "12-api-qi-yue-qing-qiu-xiang-ying-mo-xing-yu-ling-yu-fu-wu",
+      "title": "API 契约、请求响应模型与领域服务",
+      "file": "12-api-qi-yue-qing-qiu-xiang-ying-mo-xing-yu-ling-yu-fu-wu.md",
       "section": "Deep Dive",
-      "group": "Quality, Operations, and Extension",
+      "group": "后端接口与安全",
       "level": "Intermediate"
     },
     {
-      "slug": "30-docker-compose-nginx-and-sse-aware-deployment",
-      "title": "Docker Compose, Nginx, and SSE-Aware Deployment",
-      "file": "30-docker-compose-nginx-and-sse-aware-deployment.md",
+      "slug": "13-hr-jwt-yu-hou-xuan-ren-fang-wen-ling-pai-jian-quan",
+      "title": "HR JWT 与候选人访问令牌鉴权",
+      "file": "13-hr-jwt-yu-hou-xuan-ren-fang-wen-ling-pai-jian-quan.md",
       "section": "Deep Dive",
-      "group": "Quality, Operations, and Extension",
+      "group": "后端接口与安全",
       "level": "Intermediate"
     },
     {
-      "slug": "31-persistent-files-database-backups-and-operational-safety",
-      "title": "Persistent Files, Database Backups, and Operational Safety",
-      "file": "31-persistent-files-database-backups-and-operational-safety.md",
+      "slug": "14-langgraph-zhuang-tai-ding-yi-jie-dian-zhi-ze-yu-yi-lai-zhu-ru",
+      "title": "LangGraph 状态定义、节点职责与依赖注入",
+      "file": "14-langgraph-zhuang-tai-ding-yi-jie-dian-zhi-ze-yu-yi-lai-zhu-ru.md",
       "section": "Deep Dive",
-      "group": "Quality, Operations, and Extension",
+      "group": "智能面试工作流",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "15-gong-zuo-liu-qi-dong-hou-xuan-ren-da-ti-zhong-duan-yu-hui-fu-ji-zhi",
+      "title": "工作流启动、候选人答题中断与恢复机制",
+      "file": "15-gong-zuo-liu-qi-dong-hou-xuan-ren-da-ti-zhong-duan-yu-hui-fu-ji-zhi.md",
+      "section": "Deep Dive",
+      "group": "智能面试工作流",
       "level": "Advanced"
     },
     {
-      "slug": "32-adding-an-api-feature-across-backend-and-frontend",
-      "title": "Adding an API Feature Across Backend and Frontend",
-      "file": "32-adding-an-api-feature-across-backend-and-frontend.md",
+      "slug": "16-ti-shi-ci-mo-ban-llm-chu-ti-yu-mian-shi-ping-gu",
+      "title": "提示词模板、LLM 出题与面试评估",
+      "file": "16-ti-shi-ci-mo-ban-llm-chu-ti-yu-mian-shi-ping-gu.md",
       "section": "Deep Dive",
-      "group": "Quality, Operations, and Extension",
+      "group": "智能面试工作流",
       "level": "Advanced"
     },
     {
-      "slug": "33-candidate-sourcing-integration-and-future-extension-points",
-      "title": "Candidate Sourcing Integration and Future Extension Points",
-      "file": "33-candidate-sourcing-integration-and-future-extension-points.md",
+      "slug": "17-yin-pin-shang-chuan-yu-yin-zhuan-xie-yu-da-an-chu-li",
+      "title": "音频上传、语音转写与答案处理",
+      "file": "17-yin-pin-shang-chuan-yu-yin-zhuan-xie-yu-da-an-chu-li.md",
       "section": "Deep Dive",
-      "group": "Quality, Operations, and Extension",
+      "group": "智能面试工作流",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "18-ping-gu-bao-gao-xuan-ran-pdf-sheng-cheng-yu-bao-gao-xia-zai",
+      "title": "评估报告渲染、PDF 生成与报告下载",
+      "file": "18-ping-gu-bao-gao-xuan-ran-pdf-sheng-cheng-yu-bao-gao-xia-zai.md",
+      "section": "Deep Dive",
+      "group": "智能面试工作流",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "19-react-lu-you-ye-mian-jie-gou-yu-ren-zheng-zhuang-tai",
+      "title": "React 路由、页面结构与认证状态",
+      "file": "19-react-lu-you-ye-mian-jie-gou-yu-ren-zheng-zhuang-tai.md",
+      "section": "Deep Dive",
+      "group": "实时交互与前端实现",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "20-axios-ke-hu-duan-ling-yu-api-yu-qian-duan-shu-ju-zhuang-tai",
+      "title": "Axios 客户端、领域 API 与前端数据状态",
+      "file": "20-axios-ke-hu-duan-ling-yu-api-yu-qian-duan-shu-ju-zhuang-tai.md",
+      "section": "Deep Dive",
+      "group": "实时交互与前端实现",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "21-hou-xuan-ren-yu-yin-lu-zhi-ti-mu-lang-du-yu-da-ti-ti-yan",
+      "title": "候选人语音录制、题目朗读与答题体验",
+      "file": "21-hou-xuan-ren-yu-yin-lu-zhi-ti-mu-lang-du-yu-da-ti-ti-yan.md",
+      "section": "Deep Dive",
+      "group": "实时交互与前端实现",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "22-sse-shi-jian-ding-yue-jin-du-tui-song-yu-duan-xian-zhong-lian",
+      "title": "SSE 事件订阅、进度推送与断线重连",
+      "file": "22-sse-shi-jian-ding-yue-jin-du-tui-song-yu-duan-xian-zhong-lian.md",
+      "section": "Deep Dive",
+      "group": "实时交互与前端实现",
+      "level": "Advanced"
+    },
+    {
+      "slug": "23-ding-shi-xun-jian-hou-tai-ren-wu-yu-ying-yong-guan-bi-liu-cheng",
+      "title": "定时巡检、后台任务与应用关闭流程",
+      "file": "23-ding-shi-xun-jian-hou-tai-ren-wu-yu-ying-yong-guan-bi-liu-cheng.md",
+      "section": "Deep Dive",
+      "group": "运行维护与质量保障",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "24-docker-compose-nginx-fan-xiang-dai-li-yu-sheng-chan-bu-shu",
+      "title": "Docker Compose、Nginx 反向代理与生产部署",
+      "file": "24-docker-compose-nginx-fan-xiang-dai-li-yu-sheng-chan-bu-shu.md",
+      "section": "Deep Dive",
+      "group": "运行维护与质量保障",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "25-ce-shi-fen-ceng-gong-zuo-liu-mo-ni-yu-ji-cheng-ce-shi",
+      "title": "测试分层、工作流模拟与集成测试",
+      "file": "25-ce-shi-fen-ceng-gong-zuo-liu-mo-ni-yu-ji-cheng-ce-shi.md",
+      "section": "Deep Dive",
+      "group": "运行维护与质量保障",
+      "level": "Advanced"
+    },
+    {
+      "slug": "26-yi-zhi-shi-xian-xian-zhi-ke-kao-xing-feng-xian-yu-yan-jin-fang-xiang",
+      "title": "已知实现限制、可靠性风险与演进方向",
+      "file": "26-yi-zhi-shi-xian-xian-zhi-ke-kao-xing-feng-xian-yu-yan-jin-fang-xiang.md",
+      "section": "Deep Dive",
+      "group": "运行维护与质量保障",
       "level": "Advanced"
     }
   ]
